@@ -1,20 +1,16 @@
-console.log(__dirname);
-console.log(__filename);
-
-
-
-// console.log('hey ninjas');
-
-var time = 0
-
-setInterval(function() {
-    time += 2;
-    console.log(time + ' seconds have passed');
-}, 2000);
+function callFunction(x) {
+    x();
+}
 
 
 
 
+
+var sayBye = function () {
+    console.log('bye');
+}
+
+sayBye();
 
 
 
@@ -25,11 +21,8 @@ setInterval(function() {
 
 
 
-// var fs = require('fs');
 
-// var file = fs.readFile('input.txt','utf8',function(err,data){
-//     fs.writeFile('writeme.txt',data);
-//     console.log(data);
-// });
 
-// console.log('This is an instruction outside the sync file system.');
+
+
+
